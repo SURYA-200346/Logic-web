@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Logic</title>
 </head>
@@ -11,11 +14,12 @@
 <body>
     <nav class="flex w-full justify-around absolute z-10 mt-5">
         <div class="p-2 border-1px border-soild border-[white]">
-            <img src="images/logo.png" alt="#" class="w-[80px] mt-2">
+            <img src="images/logo.png" alt="#" class="w-[80px] mt-2 max-sm:w-5xl bg-cover">
         </div>
         <div>
             <ul class="flex p-5">
-                <li class="px-3 uppercase text-xs text-white"><a href="#" class="text-[#ff7200] p-2  border-b-1  border-[#ff7200]">home</a></li>
+                <li class="px-3 uppercase text-xs text-white"><a href="#"
+                        class="text-[#ff7200] p-2  border-b-1  border-[#ff7200]">home</a></li>
                 <li class="px-3 uppercase text-xs text-white"><a href="#">service</a></li>
                 <li class="px-3 uppercase text-xs text-white"><a href="#">teams</a></li>
                 <li class="px-3 uppercase text-xs text-white"><a href="#">works</a></li>
@@ -24,13 +28,109 @@
             </ul>
         </div>
     </nav>
-    <section id="home" class=" flex justify-center items-center flex-wrap bg-[url(images/homebg.jpg)] bg-cover w-full h-[550px]  relative  before:content-['']  before:left-0 before:top-0 before:h-full before:w-full  before:bg-[#292722bf] before:opacity-90">
+    <section id="home"
+        class=" flex justify-center items-center flex-wrap bg-[url(images/homebg.jpg)] bg-cover w-full h-[550px]  relative  before:content-['']  before:left-0 before:top-0 before:h-full before:w-full  before:bg-[#292722bf] before:opacity-90">
         <div class="absolute ">
-        <h1 class="text-[45px] uppercase text-white tracking-[0.11em] text-center ">welcome to our logic</h1>
-        <p class="capitalize text-white mt-3 text-sm text-normal text-center">we make awesome theme for your business</p>
+            <h1 class="text-[45px] uppercase text-white tracking-[0.11em] text-center ">welcome to our logic</h1>
+            <p class="capitalize text-white mt-3 text-sm text-normal text-center">we make awesome theme for your
+                business</p>
         </div>
-        <div class="bg-[#ff7200] p-3 inline text-white mt-60 text-center absolute "> 
+        <div class="bg-[#ff7200] p-3 inline text-white mt-60 text-center absolute ">
             <a href="#" class="px-5">learn more</a>
+        </div>
+    </section>
+    <section id="services" class="w-full h-[500px] flex flex-wrap justify-center">
+        <div class="w-4xl flex  justify-center flex-wrap">
+            <div class=" w-4xl h-[200px]  flex justify-evenly">
+                <div class="w-[200px] h-[165px] relative flex justify-center mr-4">
+                    <img src="images/stabmenubg.png" alt="#" class="w-[200px] h-[165px] bg-cover ">
+                    <div class="absolute top-12 flex flex-wrap justify-center w-[100px] h-[50px] ">
+                        <i class="fa-solid fa-location-dot "></i>
+                        <div class="mt-4 w-xl text-center">
+                            <a href="#" class="uppercase w-2xl text-[11px] text-[#444444]">web design</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[200px] h-[165px] relative flex justify-center mr-4">
+                    <img src="images/stabmenubg.png" alt="#" class="w-[200px] h-[165px] bg-cover ">
+                    <div class="absolute top-12 flex flex-wrap justify-center w-[100px] h-[50px] ">
+                        <i class="fa-solid fa-location-dot "></i>
+                        <div class="mt-4 w-xl text-center">
+                            <a href="#" class="uppercase w-2xl text-[11px] text-[#444444]">app design</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[200px] h-[165px] relative flex justify-center mr-4">
+                    <img src="images/stabmenubg.png" alt="#" class="w-[200px] h-[165px] bg-cover ">
+                    <div class="absolute top-12 flex flex-wrap justify-center w-[100px] h-[50px] ">
+                        <i class="fa-solid fa-location-dot "></i>
+                        <div class="mt-4 w-xl text-center">
+                            <a href="#" class="uppercase w-2xl text-[11px] text-[#444444]">graphic design</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[200px] h-[165px] relative flex justify-center mr-4">
+                    <img src="images/stabmenubg.png" alt="#" class="w-[200px] h-[165px] bg-cover ">
+                    <div class="absolute top-12 flex flex-wrap justify-center w-[100px] h-[50px] ">
+                        <i class="fa-solid fa-location-dot "></i>
+                        <div class="mt-4 w-xl text-center">
+                            <a href="#" class="uppercase w-2xl text-[11px] text-[#444444]">game design</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- web design one -->
+            <div class="w-full flex bg-[] ">
+                <div class="w-[520px]">
+                    <h2 class="uppercase text-[#444444]  inline pb-3">WEB DESIGN One</h2>
+                    <div
+                        class="w-[130px] h-[1px] mt-2 bg-[#eeeeee] relative after:absolute after:left-0 after:bottom-0 after:bg-[#ff7200] after:w-[50px] after:h-[2px]">
+                    </div>
+                    <p class="text-[11px] mt-18 leading-6  font-[Raleway, sans-serif] text-[#444444]">It is a long
+                        established fact that a reader will be distracted by the readable
+                        content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like
+                        readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                        their default model text, and a search for 'lorem ipsum'</p>
+                    <div class="bg-[#ff7200] inline-block p-3 text-[10px] w-[120px] text-center mt-10">
+                        <a href="#" class="uppercase text-white">learn more</a>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <img src="images/stab1.png" alt="#" class="w-[500px] h-[340px]">
+                </div>
+            </div>
+            <div class="w-full flex bg-[] mt-10 ">
+                <div>
+                    <h2 class="uppercase text-[#444444]  pb-3">FEATURED WORK</h2>
+                    <div
+                        class="w-[130px] h-[1px] mt-2 bg-[#eeeeee] relative after:absolute after:left-0 after:bottom-0 after:bg-[#ff7200] after:w-[50px] after:h-[2px]">
+                    </div>
+                    <div class="mt-15">
+                        <img src="images/featureslid1.jpg" alt="#" class="  ">
+                    </div>
+                </div>
+                <div class="w-[520px] ml-10 mt-25">
+                    <h3 class="uppercase inline">HAND WITH A WATCH</h3>
+                    <p class="text-[11px] mt-5 leading-6  font-[Raleway, sans-serif] text-[#444444]">Lorem Ipsum is
+                        simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        scrambled</p>
+                        <div class="mt-10">
+                    <p class="text-[11px] mt-2 text-[Montserrat, sans-serif] text-[#444444]">Client: Dadit Lorm</p>
+                    <p class="text-[11px] mt-2 text-[Montserrat, sans-serif] text-[#444444]">Deivered: Sunday, 15 August, 2015</p>
+                    <p class="text-[11px]  mt-2 text-[Montserrat, sans-serif] text-[#444444]">Tags: Hand, Watch, Black, Tree</p>
+                    </div>
+                    <div
+                        class="bg-none inline-block p-3 text-[10px] w-[120px] text-center mt-10 outline-1 outline-[#e1e1e1] hover:bg-[#ff7200]  hover:text-[#F8F8F8] duration-700">
+                        <a href="#" class="uppercase text-black ">launch now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full bg-[url(images/videobg.jpg)] bg-cover h-[300px] mt-10">
+
         </div>
     </section>
 </body>
